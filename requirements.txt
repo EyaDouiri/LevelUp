@@ -1,0 +1,14 @@
+httpx>=0.28,<0.29
+openpyxl>=3.1,<4
+pydantic>=2.11,<3
+python-dotenv>=1.1,<2
+pypdf>=4.0,<7
+reportlab>=4.4,<5
+google-auth-oauthlib>=1.2,<2
+google-api-python-client>=2.149,<3
+groq>=0.9,<1
+tavily-python>=0.4,<1
+anthropic>=0.34,<1
+# Optionnel : navigation navigateur pour Welcome to the Jungle (fallback).
+# Installation : python -m pip install playwright>=1.46,<2  &&  python -m playwright install chromium
+# playwright>=1.46,<2

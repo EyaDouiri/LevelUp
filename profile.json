@@ -1,0 +1,70 @@
+{
+  "name": "Eya Douiri",
+  "title": "Élève Ingénieure — Double Diplôme Informatique & Actuariat",
+  "email": "douirieya9@gmail.com",
+  "phone": "+216 52 050 985",
+  "linkedin": "linkedin.com/in/eya-douiri",
+  "profile_summary": "Étudiante en 3ème année cycle ingénieur informatique à Esprit (option Data Science), poursuivant en parallèle un Master 2 Actuariat à l'Université du Mans (IRA), suite à une sélection pour une mobilité internationale. Travaille à l'intersection de la data science et de l'actuariat, avec une vraie appétence pour les projets où les chiffres ont un impact métier concret. Recherche un stage de fin d'études à partir de janvier 2027.",
+  "education": [
+    {"period": "2024 – en cours", "degree": "Cycle Ingénieur Informatique (3ème année)", "school": "École Esprit, Tunis"},
+    {"period": "2025 – en cours", "degree": "Master 2 Actuariat", "school": "IRA, Université du Mans (mobilité internationale, sélectionnée)"},
+    {"period": "2021 – 2023", "degree": "Classe Préparatoire PC (Physique-Chimie)", "school": "Prépa Nabeul"},
+    {"period": "2021 – 2022", "degree": "Baccalauréat Mathématiques — Mention Bien", "school": ""}
+  ],
+  "experience": [
+    {
+      "role": "Stagiaire — Analyste Data & Actuariat",
+      "company": "BH Assurance",
+      "period": "Juillet – Août 2026 (en cours)",
+      "description": "Stage académique de 2ème année — système de rentabilité et de surveillance de portefeuille, pipeline CRISP-DM sur données quittances et sinistres",
+      "bullets": [
+        "Conception d'un algorithme de l'allocation du chiffre d'affaires en prorata temporis",
+        "Développement du module de gestion des arriérés et du recouvrement",
+        "Mise en place du système d'alerte pour la surveillance de portefeuille : détection automatique des dérives de rentabilité et des retards de recouvrement",
+        "Construction d'une table de rentabilité consolidée alignée sur un format de référence métier",
+        "Modélisation de la prédiction du CA par régression Ridge, avec backtests"
+      ]
+    },
+    {
+      "role": "Stagiaire Data Science — Agent de scoring & analyse de données clients",
+      "company": "Tunisie Telecom",
+      "period": "Juin – Juillet 2025",
+      "bullets": [
+        "Conception d'un agent de scoring client : collecte, nettoyage, feature engineering, entraînement (Random Forest, XGBoost)",
+        "Intégration de MLflow pour le suivi et la reproductibilité des expériences",
+        "Déploiement d'une API Flask et d'une interface web pour les nouvelles prédictions, avec sauvegarde automatique des données pour alimenter un futur réentraînement du modèle"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Agent IA Multimodal pour la Formation",
+      "stack": "LLaMA 8B | RAG (FAISS) | VLM | Hume AI",
+      "description": "Agent conversationnel IA pour la formation de professionnels de santé : architecture RAG complète (LLaMA 8B local + FAISS), pipeline multimodal (analyse comportementale via VLM, prosodie vocale via Hume AI, STT/TTS), avatar 3D animé synchronisé."
+    },
+    {
+      "title": "Modélisation Fréquence-Coût en Assurance Automobile",
+      "stack": "GLM Poisson & Gamma | Rstudio",
+      "description": "Modélisation de la sinistralité auto : fréquence des sinistres (GLM Poisson) et coût moyen (GLM Gamma), segmentation tarifaire par profil conducteur."
+    },
+    {
+      "title": "Provisionnement en Assurance Non-Vie",
+      "stack": "Chain-Ladder | Rstudio",
+      "description": "Estimation des provisions techniques (IBNR) via la méthode Chain-Ladder et ses variantes sur triangles de liquidation, analyse de sensibilité."
+    }
+  ],
+  "skills": {
+    "ia_agents": ["RAG", "LLM", "architecture agentique", "analyse multimodale", "prompt engineering"],
+    "actuariat_stats": ["GLM (Poisson, Gamma, Tweedie)", "Chain-Ladder", "IBNR", "provisions techniques", "Monte Carlo"],
+    "machine_learning": ["Scikit-learn", "XGBoost", "LightGBM", "SHAP", "régression Ridge", "Deep Learning (LSTM, Keras, Transformers)"],
+    "data_dev": ["Python", "R", "SQL", "Pandas", "NumPy", "Matplotlib", "Flask", "MLflow", "Git", "JavaScript (MERN)"],
+    "langues": ["Français courant", "Anglais professionnel", "Arabe langue maternelle"]
+  },
+  "target_criteria": {
+    "start_date": "Fin janvier 2027",
+    "contract_types": ["PFE", "CDD (équivalent PFE accepté par l'école)"],
+    "countries": ["France", "Bruxelles (Belgique)", "Suisse", "Tunisie"],
+    "sectors": ["Actuariat (priorité)", "Assurance", "InsurTech", "Data Science appliquée à l'assurance"],
+    "keywords_priority": ["actuariat", "actuarial", "pricing", "provisionnement", "IBNR", "IFRS 17", "GLM", "risk modeling", "data science assurance"]
+  }
+}
